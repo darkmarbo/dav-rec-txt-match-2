@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>
+    </LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>D:\speech_match\speechMatchCPlus\speechMatch-小语音\speechMatchDLLTest\speechMatchDLLTest\Debug\speechMatchDLLTest.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>.\Debug</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>Bears\\wav_16\\01_Track_01.wav   Bears\\lab_ren\\01_Track_01.lab  01_Track_01.txt</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>D:\阿里-tts-vad-match-check\vad\VADF-dll-demo-test\Release\vad_test.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>..\Release</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+</Project>
